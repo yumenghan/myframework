@@ -1,5 +1,6 @@
 package com.myframework.service;
 
+import com.myframework.helper.DatabaseHelper;
 import com.myframework.model.Customer;
 
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
 public class CustomerService {
 
     public List<Customer> listCustomers() {
-        return null;
+        String sql = "SELECT * FROM customer";
+        return DatabaseHelper.queryEntityList(Customer.class, sql);
     }
 }

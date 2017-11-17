@@ -20,4 +20,13 @@ public final class CollectionUtil {
     public static boolean isEmpty(Collection<?> collection) {
         return CollectionUtils.isEmpty(collection);
     }
+
+    /**
+     * 判断集合是否不为空
+     * @param collection
+     * @return
+     */
+    public static boolean isNotEmpty(Collection<?> collection) {
+        return CollectionUtils.isNotEmpty(collection);
+    }
 }

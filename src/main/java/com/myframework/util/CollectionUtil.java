@@ -29,4 +29,6 @@ public final class CollectionUtil {
     public static boolean isNotEmpty(Collection<?> collection) {
         return CollectionUtils.isNotEmpty(collection);
     }
+
+
 }

@@ -22,4 +22,7 @@ public interface ConfigConstant {
     String APP_JSP_PATH = "my.framework.app.jsp_path";
 
     String APP_STATIC_PATH = "my.framework.app.static_path";
+
+    String APP_TEST = "my.framework.app.test";
+
 }
